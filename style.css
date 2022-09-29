@@ -1,0 +1,27 @@
+.custom-container {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.logo-container {
+  background: url(https://jcss-cdn.kantipurdaily.com/kantipurdaily/images/dashain_banner-2078-desktop.svg)
+    no-repeat center top;
+  background-size: contain;
+  height: 13rem;
+}
+
+.highlight-title {
+  font-size: 4rem;
+}
+
+.main-news-card-img {
+  height: 8rem;
+}
+
+.side-card-img {
+  width: 4rem;
+}
+
+.side-card-date {
+  font-size: 0.8rem;
+}

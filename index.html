@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Ekantipur Clone</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <!-- left whole grid -->
+        <div class="col-10 bg-white border-end p-0">
+          <!-- top bar -->
+          <div
+            class="d-flex justify-content-between p-2 shadow-sm border-bottom sticky-top bg-white"
+          >
+            <a href="#" class="d-block"
+              ><i class="bi bi-list fs-3 border px-2 text-black bg-light"></i
+            ></a>
+            <a href="#" class="d-block"
+              ><i
+                class="bi bi-person fs-4 border px-2 py-1 rounded-circle text-black"
+              ></i
+            ></a>
+          </div>
+
+          <!-- Logo section -->
+          <div
+            class="container logo-container d-flex flex-column align-items-center mt-4 mb-2 gap-1"
+          >
+            <a href="#">
+              <img
+                src="https://jcss-cdn.kantipurdaily.com/kantipurdaily/images/logo.png"
+                alt="kantipurdaily logo"
+              />
+            </a>
+            <p class="text-black-50">
+              १३ आश्विन २०७९ बिहीबार
+              <span class="fs-6 ms-3">Thursday, September 29, 2022</span>
+            </p>
+          </div>
+
+          <!-- Navigation bar section -->
+          <nav class="">
+            <div class="custom-container border-bottom">
+              <ul class="navbar-nav d-flex flex-row justify-content-around">
+                <li class="nav-item text-primary mt-2 fw-bold fs-5">चर्चामा</li>
+                <li class="nav-item">
+                  <a class="nav-link fs-5" href="#">उज्यालो पूर्व</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fs-5" href="#">बाढी-पहिरो</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fs-5" href="#">प्रधानन्यायाधीश विवादमा</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fs-5" href="#">आमनिर्वाचन २०७९</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fs-5" href="#">लीको नेपाल भ्रमण</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fs-5" href="#">कान्तिपुर कन्क्लेभ २०२२</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+
+          <!-- berger silk ad -->
+          <div class="d-flex justify-content-center align-items-center my-4">
+            <img
+              src="https://assets-cdn.kantipurdaily.com/uploads/source/ads/ekantipur-970-x-120-gif-2682022054217.gif"
+              alt="berger paint"
+            />
+          </div>
+
+          <!-- highlight 1 -->
+          <section
+            class="custom-container d-flex flex-column align-items-center gap-2 pt-4 pb-3 border-bottom mb-5"
+          >
+            <h5
+              class="bg-primary text-white d-inline-block px-3 py-2 fw-semibold"
+            >
+              विश्व मुटु दिवस
+            </h5>
+            <a
+              href="#"
+              class="text-decoration-none text-dark fw-bold highlight-title"
+              >भर्चुअल दुनियाँका मुटु डाक्टर</a
+            >
+            <img
+              src="https://assets-cdn.kantipurdaily.com/uploads/source/news/kantipur/2022/third-party/dr-muti-2992022040344-1000x0.jpg"
+              alt="dr-muti-2992022040344-1000x0"
+              class="img-fluid"
+            />
+          </section>
+
+          <!-- highlight 2 -->
+          <section
+            class="custom-container d-flex flex-column align-items-center gap-2 pt-4 pb-3 border-bottom border-top mb-5"
+          >
+            <a
+              href="#"
+              class="text-decoration-none text-dark fw-bold highlight-title"
+              >वैकल्पिक राजनीतिलाई ‘धोका’</a
+            >
+            <img
+              src="https://assets-cdn.kantipurdaily.com/uploads/source/news/kantipur/2022/politics/brb-and-rabindra-2992022034543-1000x0.jpg"
+              alt="brb-and-rabindra-2992022034543-1000x0"
+              class="img-fluid"
+            />
+          </section>
+
+          <!-- highlight 3 -->
+          <section
+            class="custom-container d-flex flex-column align-items-center gap-2 pt-4 border-top mb-3"
+          >
+            <a
+              href="#"
+              class="text-decoration-none text-dark fw-bold highlight-title"
+              >ह्याट्रिकका ६ हिरो</a
+            >
+            <img
+              src="https://assets-cdn.kantipurdaily.com/uploads/source/news/kantipur/2022/sports/sports-cover-2992022063653-1000x0.jpg"
+              alt="sports-cover-2992022063653-1000x0"
+              class="img-fluid"
+            />
+          </section>
+
+          <!-- dabur honey ad -->
+          <div class="custom-container">
+            <img
+              src="https://assets-cdn.kantipurdaily.com/uploads/source/ads/dabur-honey-real-970x120pxekantipur-2192022041129.gif"
+              alt="dabur-honey-real"
+              class="img-fluid mb-3"
+            />
+          </div>
+
+          <!-- namastepay ad -->
+          <div class="custom-container">
+            <img
+              src="https://assets-cdn.kantipurdaily.com/uploads/source/ads/087-11-namaste-pay-online-banner-gifs970x100px120-mb-1292022041939.gif"
+              alt="namastepay online"
+              class="img-fluid mb-3"
+            />
+          </div>
+
+          <!-- main news card -->
+          <div class="custom-container d-flex gap-3 py-4">
+            <!-- card 1 -->
+            <div>
+              <img
+                src="https://assets-cdn.kantipurdaily.com/uploads/source/news/kantipur/2022/third-party/hilaree-nelson-him-khadal-2992022031242-240x158.jpg"
+                alt="hilaree-nelson-him-khadal-2992022031242-240x158"
+                class="main-news-card-img"
+              />
+              <a href="#" class="text-decoration-none d-block mt-4"
+                ><h5 class="text-dark fw-semibold">
+                  ज६७ सय मिटर उचाइमा भेटियो स्की-पर्वतारोही हिलारीको शव
+                </h5></a
+              >
+            </div>
+
+            <!-- card 2 -->
+            <div>
+              <img
+                src="https://assets-cdn.kantipurdaily.com/uploads/source/news/kantipur/2022/money-finance/raxaul-ktm-rail-2992022030445-240x158.jpg"
+                alt="raxaul-ktm-rail-2992022030445-240x158"
+                class="main-news-card-img"
+              />
+              <a href="#" class="text-decoration-none d-block mt-4"
+                ><h5 class="text-dark fw-semibold">
+                  रक्सौल–काठमाडौं रेल ल्याउन ३ खर्ब २० अर्ब
+                </h5></a
+              >
+            </div>
+
+            <!-- card 3 -->
+            <div>
+              <img
+                src="https://assets-cdn.kantipurdaily.com/uploads/source/news/kantipur/2022/money-finance/naka-pic-2992022031429-240x158.jpg"
+                alt="naka-pic-2992022031429-240x158"
+                class="main-news-card-img"
+              />
+              <a href="#" class="text-decoration-none d-block mt-4"
+                ><h5 class="text-dark fw-semibold">
+                  दसैं किनमेललाई सीमावर्ती भारतीय बजारमा घुइँचो
+                </h5></a
+              >
+            </div>
+
+            <!-- card 4 -->
+            <div>
+              <img
+                src="https://assets-cdn.kantipurdaily.com/uploads/source/news/kantipur/2022/third-party/dollar-faida-2992022023206-240x158.jpg"
+                alt="dollar-faida-2992022023206-240x158"
+                class="main-news-card-img"
+              />
+              <a href="#" class="text-decoration-none d-block mt-4"
+                ><h5 class="text-dark fw-semibold">
+                  डलरको भाउ १३१.४१ रुपैयाँ पुग्यो
+                </h5></a
+              >
+            </div>
+          </div>
+
+          <!-- news grid -->
+          <div class="custom-container">
+            <div class="row border-top border-bottom py-4">
+              <div class="col-5 px-4">
+                <div class="border-bottom pb-3">
+                  <a href="#" class="text-decoration-none"
+                    ><h4 class="text-dark fw-semibold mb-3">
+                      डेंगीमुक्त भएकामा कपाल झर्ने समस्या
+                    </h4>
+                  </a>
+                  <p class="fs-5">
+                    डेंगी निको भइसकेकाहरूमा कमजोरी, हाडजोर्नी तथा मांसपेशी
+                    दुखाइ, कपाल झर्नेलगायत समस्या देखिएको छ । संक्रमणमुक्त भए
+                    पनि रोग प्रतिरोधक क्षमता कम भएका वा दीर्घरोगीमा यसको असर
+                    लामो समय रहने विज्ञ बताउँछन् । ६ महिना वा त्योभन्दा बढी
+                    समयसम्म त्यस्ता स्वास्थ्य समस्या देखिन सक्ने उनीहरूको भनाइ
+                    छ ।
+                  </p>
+
+                  <div class="d-flex gap-4">
+                    <div>
+                      <i class="bi bi-bookmark fs-6"></i>
+                      <a href="#" class="text-decoration-none text-black-50"
+                        >संग्रह</a
+                      >
+                    </div>
+                    <div>
+                      <i class="bi bi-share-fill fs-6"></i>
+                      <a href="#" class="text-decoration-none text-black-50"
+                        >सेयर</a
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <div class="pt-3">
+                  <a href="#" class="text-decoration-none"
+                    ><h4 class="text-dark fw-semibold mb-3">
+                      वाग्मती प्रदेशका मुख्यमन्त्रीलाई मातृशोक
+                    </h4>
+                  </a>
+                  <p class="fs-5">
+                    वाग्मती प्रदेशका मुख्यमन्त्री राजेन्द्र पाण्डे र एमालेका
+                    उपाध्यक्ष सुरेन्द्र पाण्डेकी आमा मनमाया पाण्डेको ८७ वर्षको
+                    उमेरमा निधन भएको छ ।
+                  </p>
+
+                  <div class="d-flex gap-4">
+                    <div>
+                      <i class="bi bi-bookmark fs-6"></i>
+                      <a href="#" class="text-decoration-none text-black-50"
+                        >संग्रह</a
+                      >
+                    </div>
+                    <div>
+                      <i class="bi bi-share-fill fs-6"></i>
+                      <a href="#" class="text-decoration-none text-black-50"
+                        >सेयर</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col border-start px-4">
+                <div class="border-bottom pb-3">
+                  <a href="#" class="text-decoration-none"
+                    ><h4 class="text-dark fw-semibold mb-3">
+                      मकवानपुरगढी महिला भलिबल च्याम्पियन
+                    </h4>
+                  </a>
+                  <p class="fs-5">
+                    मकवानपुरगढी गाउँपालिकाले मकवानपुर जिल्लास्तरीय महिला भलिबलको
+                    उपाधि जितेको छ । बुधबार हुप्रचौरमा भएको फाइनलमा बकैया
+                    गाउँपालिकालाई २५–१५, २५–१९, २५–१३ को सोझो सेटमा पराजित गर्दै
+                    मकवानपुरगढीले उपाधि जितेको हो ।
+                  </p>
+
+                  <div class="d-flex gap-4">
+                    <div>
+                      <i class="bi bi-bookmark fs-6"></i>
+                      <a href="#" class="text-decoration-none text-black-50"
+                        >संग्रह</a
+                      >
+                    </div>
+                    <div>
+                      <i class="bi bi-share-fill fs-6"></i>
+                      <a href="#" class="text-decoration-none text-black-50"
+                        >सेयर</a
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <div class="pt-3">
+                  <a href="#" class="text-decoration-none"
+                    ><h4 class="text-dark fw-semibold mb-3">
+                      चारै दाजुभाइ फुटबलमा
+                    </h4>
+                  </a>
+                  <p class="fs-5">
+                    धरानमा हुने अधिकांश फुटबल प्रतियोगितामा ठुल्दाइ आशिष राई
+                    जर्सी र फुटबल बुट लगाएर घरदेखि निस्कनासाथ उनका भाइहरू अमृत,
+                    सुजन र रविन पनि पछ्याउँछन् । चारभाइ फुटबल ड्रेसमा निस्कँदा
+                    धरान १७ रेल्वेवासीले नियालेर हेर्दै लख काट्छन्, आज कतै
+                    प्रतियोगिता हुँदै छ । चारै भाइले एकै रंगको जर्सी लगाउनुको
+                    अर्थ हो उनीहरू फुटबल प्रतियोगिताहरूमा सँगै हुन्छन् ।
+                  </p>
+
+                  <div class="d-flex gap-4">
+                    <div>
+                      <i class="bi bi-bookmark fs-6"></i>
+                      <a href="#" class="text-decoration-none text-black-50"
+                        >संग्रह</a
+                      >
+                    </div>
+                    <div>
+                      <i class="bi bi-share-fill fs-6"></i>
+                      <a href="#" class="text-decoration-none text-black-50"
+                        >सेयर</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- right whole grid -->
+        <div class="col bg-light">
+          <!-- top icon -->
+          <div class="mt-2">
+            <a href="#" class="ms-1"
+              ><i class="bi bi-chevron-bar-right fs-2 text-black-50"></i
+            ></a>
+          </div>
+
+          <!-- Side Title -->
+          <a href="#" class="text-decoration-none my-3"
+            ><h4 class="text-primary fw-bold">विचार/विविधा</h4></a
+          >
+
+          <!-- Cards -->
+          <div class="d-flex flex-column gap-3 mb-3">
+            <!-- Card 1 -->
+            <div class="border p-3 bg-white">
+              <a href="#" class="text-decoration-none"
+                ><h6 class="text-black-50">विचार</h6></a
+              >
+              <a href="#" class="text-decoration-none"
+                ><h5 class="text-dark fw-semibold">
+                  जब वामपन्थी असफल हुन्छन्
+                </h5></a
+              >
+              <div class="d-flex gap-3">
+                <img
+                  src="https://assets-cdn-api.kantipurdaily.com/thumb.php?src=https://assets-cdn.kantipurdaily.com/uploads/source/author/kantipur/jhalak-subedi-1272022082101-1000x0.jpg&w=150&h=150"
+                  alt="jhalak-subedi-1272022082101-1000x0"
+                  class="side-card-img rounded-circle"
+                />
+                <div>
+                  <a href="#" class="text-decoration-none"
+                    ><h6 class="text-primary mb-1">झलक सुवेदी</h6></a
+                  >
+                  <p class="text-black-50 side-card-date">आश्विन १३, २०७९</p>
+                </div>
+              </div>
+              <p class="fs-5">
+                गएको आइतबार इटालीमा सम्पन्न निर्वाचनमा फासीवादी रुझान राख्ने दल
+                ब्रदर्स अफ इटाली र उसका दक्षिणपन्थी सहयोगीहरूको गठबन्धनले बहुमत
+                हासिल गर्‍यो । ब्रदर्स अफ इटालीकी नेता जोर्जिय...
+              </p>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="border p-3 bg-white">
+              <a href="#" class="text-decoration-none"
+                ><h6 class="text-black-50">विचार</h6></a
+              >
+              <a href="#" class="text-decoration-none"
+                ><h5 class="text-dark fw-semibold">
+                  मुटु र खानपिनबीच सन्तुलन
+                </h5></a
+              >
+              <div class="d-flex gap-3">
+                <img
+                  src="https://assets-cdn-api.kantipurdaily.com/thumb.php?src=https://assets-cdn.kantipurdaily.com/uploads/source/author/kantipur/awani-bhushan-2992020045941-1000x0.jpg&w=150&h=150"
+                  alt="awani-bhushan-2992020045941-1000x0"
+                  class="side-card-img rounded-circle"
+                />
+                <div>
+                  <a href="#" class="text-decoration-none"
+                    ><h6 class="text-primary mb-1">अवनिभूषण उपाध्याय</h6></a
+                  >
+                  <p class="text-black-50 side-card-date">आश्विन १३, २०७९</p>
+                </div>
+              </div>
+              <p class="fs-5">
+                हरेक २९ सेप्टेम्बरमा विश्व मुटु दिवस मनाइन्छ, यसपालिको नारा छ—
+                ‘युज हार्ट फर एभ्री हार्ट ।’ संसारभरि मुटुरोगका कारण १८.६ मिलियन
+                मानिसको अकालमा मृत्यु भइरहेको छ ।...
+              </p>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="border p-3 bg-white">
+              <a href="#" class="text-decoration-none"
+                ><h6 class="text-black-50">विचार</h6></a
+              >
+              <a href="#" class="text-decoration-none"
+                ><h5 class="text-dark fw-semibold">
+                  आसन्न चुनावमा गान्धीगिरी !
+                </h5></a
+              >
+              <div class="d-flex gap-3">
+                <img
+                  src="https://assets-cdn-api.kantipurdaily.com/thumb.php?src=https://assets-cdn.kantipurdaily.com/uploads/source/author/kantipur/ck-jha-2932018043026-1000x0.jpg&w=150&h=150"
+                  alt="ck-jha-2932018043026-1000x0"
+                  class="side-card-img rounded-circle"
+                />
+                <div>
+                  <a href="#" class="text-decoration-none"
+                    ><h6 class="text-primary mb-1">चन्द्रकिशोर</h6></a
+                  >
+                  <p class="text-black-50 side-card-date">आश्विन १३, २०७९</p>
+                </div>
+              </div>
+              <p class="fs-5">
+                दक्षिण अफ्रिकी मुक्ति संग्रामका अगुवा नेल्सन मण्डेलालाई जब रोबेन
+                आइल्यान्डमा कैद गरिएको थियो, त्यतिखेर उनीमाथि हिंसक अपराधहरूको
+                मुद्दा थियो । त्यो कारागार असाध्यै कठोर सजाय भोग्नेहरूका...
+              </p>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="border p-3 bg-white">
+              <a href="#" class="text-decoration-none"
+                ><h6 class="text-black-50">विचार</h6></a
+              >
+              <a href="#" class="text-decoration-none"
+                ><h5 class="text-dark fw-semibold">
+                  लोकतन्त्रको सबलताका लागि तथ्यांक
+                </h5></a
+              >
+              <div class="d-flex gap-3">
+                <img
+                  src="https://assets-cdn-api.kantipurdaily.com/thumb.php?src=https://assets-cdn.kantipurdaily.com/uploads/source/author/kantipur/editorial-logo-05102017112937-1000x0.jpg&w=150&h=150"
+                  alt="editorial-logo-05102017112937-1000x0"
+                  class="side-card-img rounded-circle"
+                />
+                <div>
+                  <a href="#" class="text-decoration-none"
+                    ><h6 class="text-primary mb-1">रोहिणी पाण्डे</h6></a
+                  >
+                  <p class="text-black-50 side-card-date">आश्विन १३, २०७९</p>
+                </div>
+              </div>
+              <p class="fs-5">
+                २०७९ वैशाख ३० गते सम्पन्न नेपालको दोस्रो स्थानीय तह निर्वाचनको
+                सफलताले सकारात्मक सन्देश दिएको छ । तर, सहभागिता तथा
+                प्रतिनिधित्वको हिसाबले यो निर्वाचन प्रक्रियाले केही अनपेक्षित...
+              </p>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="border p-3 bg-white">
+              <a href="#" class="text-decoration-none"
+                ><h6 class="text-black-50">विचार</h6></a
+              >
+              <a href="#" class="text-decoration-none"
+                ><h5 class="text-dark fw-semibold">
+                  कार्कीलाई प्रधानन्यायाधीशकै सुविधाले निम्त्याउने अनर्थ
+                </h5></a
+              >
+              <div class="d-flex gap-3">
+                <img
+                  src="https://assets-cdn-api.kantipurdaily.com/thumb.php?src=https://assets-cdn.kantipurdaily.com/uploads/source/author/kantipur/kpr-temple-20122017104215-1000x0.jpg&w=150&h=150"
+                  alt="kpr-temple-20122017104215-1000x0"
+                  class="side-card-img rounded-circle"
+                />
+                <div>
+                  <a href="#" class="text-decoration-none"
+                    ><h6 class="text-primary mb-1">सम्पादकीय</h6></a
+                  >
+                  <p class="text-black-50 side-card-date">आश्विन १३, २०७९</p>
+                </div>
+              </div>
+              <p class="fs-5">
+                छ महिनाभन्दा बढी कायम मुकायम (कामु) प्रधानन्यायाधीश भएका
+                व्यक्तिलाई प्रधानन्यायाधीशसरह सुविधा दिने भनी असोज ३ गते
+                मन्त्रिपरिषद्ले गरेको निर्णय प्रथम दृष्टिमै खारेजयोग्य छ । कामु
+                प्रधानन्यायाधीश...
+              </p>
+            </div>
+
+            <!-- Card 6 -->
+            <div class="border p-3 bg-white">
+              <a href="#" class="text-decoration-none"
+                ><h6 class="text-black-50">विविधा</h6></a
+              >
+              <a href="#" class="text-decoration-none"
+                ><h5 class="text-dark fw-semibold">
+                  ‘अस्ट्रेलिया जान्छुभन्दा ५०/६० लाखसम्म पाइन्छ तर व्यापार
+                  गर्छुभन्दा पैसै पाइँदैन’
+                </h5></a
+              >
+              <div class="d-flex gap-3">
+                <img
+                  src="https://assets-cdn-api.kantipurdaily.com/thumb.php?src=https://assets-cdn.kantipurdaily.com/uploads/source/author/kantipur/anil-parajuli-2892022091442-1000x0.jpg&w=150&h=150"
+                  alt="anil-parajuli-2892022091442-1000x0"
+                  class="side-card-img rounded-circle"
+                />
+                <div>
+                  <a href="#" class="text-decoration-none"
+                    ><h6 class="text-primary mb-1">अनिल पराजुली</h6></a
+                  >
+                  <p class="text-black-50 side-card-date">आश्विन १३, २०७९</p>
+                </div>
+              </div>
+              <p class="fs-5">
+                विगत ४/५ वर्ष काम गरेको अनुभवले भन्नुपर्दा सर्वप्रथम मानव संशाधन
+                छैन । दक्ष मान्छे छैन । स्टार्टअप भनेको प्रशिक्षण तथा विकासको
+                संस्थाजस्तै भएको छ ।...
+              </p>
+            </div>
+
+            <!-- Card 7 -->
+            <div class="border p-3 bg-white">
+              <a href="#" class="text-decoration-none"
+                ><h6 class="text-black-50">विविधा</h6></a
+              >
+              <a href="#" class="text-decoration-none"
+                ><h5 class="text-dark fw-semibold">
+                  ‘कच्चा पदार्थको कर र अन्तशुल्क परिवर्तन गरे औद्योगिक क्षेत्र
+                  कमजोर हुन्छ’
+                </h5></a
+              >
+              <div class="d-flex gap-3">
+                <img
+                  src="https://assets-cdn-api.kantipurdaily.com/thumb.php?src=https://assets-cdn.kantipurdaily.com/uploads/source/author/kantipur/1m-2892022084548-1000x0.jpg&w=150&h=150"
+                  alt="mahesh jaju"
+                  class="side-card-img rounded-circle"
+                />
+                <div>
+                  <a href="#" class="text-decoration-none"
+                    ><h6 class="text-primary mb-1">महेश जाजु</h6></a
+                  >
+                  <p class="text-black-50 side-card-date">आश्विन १३, २०७९</p>
+                </div>
+              </div>
+              <p class="fs-5">
+                प्रधानमन्त्री उत्पादन गर्ने क्षेत्र विराटनगर भनिएको छ । २००७
+                देखि २०७९ सालसम्म विराटनगरबाट ९ जना प्रधानमन्त्री, ३/४ वटा
+                अर्थमन्त्री बनिसकेका छन् । प्रधानमन्त्रीले कति वर्ष...
+              </p>
+            </div>
+
+            <!-- Card 8 -->
+            <div class="border p-3 bg-white">
+              <a href="#" class="text-decoration-none"
+                ><h6 class="text-black-50">विविधा</h6></a
+              >
+              <a href="#" class="text-decoration-none"
+                ><h5 class="text-dark fw-semibold">
+                  ‘ठूलो घर, भव्य ठाउँ र पिच सडक हुँदैमा सहर बन्दैन’
+                </h5></a
+              >
+              <div class="d-flex gap-3">
+                <img
+                  src="https://assets-cdn-api.kantipurdaily.com/thumb.php?src=https://assets-cdn.kantipurdaily.com/uploads/source/author/kantipur/keshab-dahal-27122017074021-1000x0.jpg&w=150&h=150"
+                  alt="keshab-dahal-27122017074021-1000x0"
+                  class="side-card-img rounded-circle"
+                />
+                <div>
+                  <a href="#" class="text-decoration-none"
+                    ><h6 class="text-primary mb-1">केशव दाहाल</h6></a
+                  >
+                  <p class="text-black-50 side-card-date">आश्विन १३, २०७९</p>
+                </div>
+              </div>
+              <p class="fs-5">
+                हामी बदलिँदो सहरको विषयमा कुरा गर्दैछौं, गर्छौं । यहाँ सहभागीको
+                उपस्थिति हेर्दा बन्दै गरेको सहरमा गरेको भए राम्रो हुन्थ्यो कि ।
+                सहरमा कलाको कुरा, जीवनको...
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
